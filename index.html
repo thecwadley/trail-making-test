@@ -8,15 +8,9 @@
     <link rel="stylesheet" href="styles.css" />
 
     <meta charset="UTF-8" />
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"></script>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/addons/p5.sound.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/addons/p5.sound.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
@@ -25,31 +19,23 @@
       <p>
         <b>Mock Trail-Making Test Digital Variant (For presentation only)</b>
       </p>
-      <a id="source" href="https://github.com/thecwadley/trail-making-test"
-        >Link to Source</a
-      >
+      <a id="source" href="https://github.com/thecwadley/trail-making-test">Link to Source</a>
     </div>
     <form id="introduction" class="form-style-8">
-      <h2 id="title">
-        <b>[Presentation Test]</b> How to take the test: Part A
-      </h2>
+      <h2 id="title"><b>[Presentation Test]</b> How to take the test: Part A</h2>
       <p id="description">
-        Using your school-issued chromebook's touchscreen feature, connect the
-        dots from 1 to 2 to 3, etc. Keep your finger on the screen the entire
-        time. If you go to the incorrect circle, it will be indicated.
+        Using your school-issued chromebook's touchscreen feature, connect the dots from 1 to 2 to 3, etc. Keep your finger on the screen the entire time. If you go to the incorrect circle, it will be indicated.
       </p>
-      <img
-        id="example"
-        src="https://drive.google.com/uc?id=1BN4MI4OtGgwPvwML0GSg28n0X2eaP2PI"
-        width="100%"
-      />
+      <img id="example" src="https://drive.google.com/uc?id=1BN4MI4OtGgwPvwML0GSg28n0X2eaP2PI" width="100%" />
       <input type="button" value="Continue" id="continue" />
       <input type="button" value="Return" id="return" style="display: none;" />
     </form>
     <div id="nav-bar">
       <div id="nav-a" class="nav">Trail-Making Test Part A</div>
       <div id="nav-b" class="nav">Trail-Making Test Part B</div>
-      <input id="circleNumb" type="number" max="50" min="3" value="25" />
+      <div class="quantity">
+        <input id="circleNumb" type="number" max="50" min="3" value="25" />
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
