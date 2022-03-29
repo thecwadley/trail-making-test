@@ -54,7 +54,7 @@ canvas {
   border-width: 2px;
   display: grid;
   grid-template-areas: "a b numb";
-  grid-template-columns: 3fr 3fr 1fr;
+  grid-template-columns: 5fr 5fr 1fr;
   align-items: center;
   justify-items: center;
 }
