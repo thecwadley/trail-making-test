@@ -59,6 +59,12 @@ canvas {
   justify-items: center;
 }
 
+#source {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
 .nav {
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
